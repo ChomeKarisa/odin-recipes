@@ -1,0 +1,16 @@
+*{
+    background-color: lightgrey;
+}
+#main-title{
+    text-align: center;
+}
+.recipe-link a{
+    text-decoration: underline;
+}
+h1, p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.agritech a{
+    color: darkgreen;
+}
