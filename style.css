@@ -1,8 +1,18 @@
 *{
     background-color: lightgrey;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-width: 800px;
+    margin:0 auto;
 }
 #main-title{
     text-align: center;
+    border-bottom: 4px solid green;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
 }
 .recipe-link a{
     text-decoration: underline;
@@ -11,6 +21,18 @@ h1, p{
     font-family: Arial, Helvetica, sans-serif;
 
 }
-.agritech a{
-    color: darkgreen;
+.agri-tech a{
+    color: darkgreen !important; 
+}
+.agri-tech{
+    border: 2px solid brown;
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: lightgreen;
+}
+a{
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    border: 1px solid black;
 }
